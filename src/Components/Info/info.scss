@@ -1,0 +1,18 @@
+.section--info {
+	text-align: center;
+
+	.header {
+		font-size: var(--fs-400);
+		line-height: 1;
+
+		&--alt {
+			font-size: var(--fs-200);
+			font-weight: 400;
+			margin-bottom: 8px;
+		}
+	}
+
+	.buttons-wrapper {
+		margin-top: 15px;
+	}
+}

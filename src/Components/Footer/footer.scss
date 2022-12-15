@@ -1,0 +1,39 @@
+footer {
+	background-color: var(--clr-p-200);
+
+	ul {
+		display: flex;
+		list-style: none;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0;
+		margin: 0;
+
+		li {
+			border-radius: 4px;
+
+			a {
+				display: block;
+				width: 32px;
+				height: 32px;
+				background-color: transparent;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				svg {
+					width: 20px;
+					height: 20px;
+				}
+			}
+
+			&:hover {
+				background-color: var(--clr-a-100);
+
+				svg {
+					color: var(--clr-n-100);
+				}
+			}
+		}
+	}
+}
